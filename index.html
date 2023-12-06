@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" media="mediatype and|not|only (expressions)" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan&family=Quicksand:wght@600&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+
+
+  <title>Frontend Mentor | Calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+        <div class="screen" id="screen">
+
+        </div>
+        <div class="keyboard">
+          <button onclick="insert('7')">7</button>
+          <button onclick="insert('8')">8</button>
+          <button onclick="insert('9')">9</button>
+
+          <button class="del" onclick="back()">DEL</button>
+
+          <button onclick="insert('4')">4</button>
+          <button onclick="insert('5')">5</button>
+          <button onclick="insert('6')">6</button>
+
+          <button onclick="insert('+')">+</button>
+
+          <button onclick="insert('1')">1</button>
+          <button onclick="insert('2')">2</button>
+          <button onclick="insert('3')">3</button>
+
+          <button onclick="insert('-')">-</button>
+          <button onclick="insert('.')">.</button>
+
+          <button onclick="insert('0')">0</button>
+
+          <button onclick="insert('/')">/</button>
+          <button onclick="insert('*')">x</button>
+
+          <button class="reset" onclick="clean()">OFF</button>
+          <button class="equal" onclick="calculate()">=</button>
+        </div>
+    </div>
+  </div>
+  
+  <div class="attribution" style="color: #ffffff">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" style="color: #ffffff" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#" style="color: #ffffff">Arthur Gabriel Viera</a>.
+  </div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Quicksand:wght@600&display=swap');
+
+. {
+    margin: auto;
+    padding: auto;
+}
+
+body {
+    background-color: #3B4664
+
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+
+}
+
+.screen {
+    width: 300px;
+    height: 30px;
+    padding: 35px;
+    background-color: #181F32;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.keyboard {
+    margin: 20px auto;
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 15px;
+    vertical-align: middle;
+    background-color: #252D44;
+    border-radius: 10px;
+
+
+}
+
+button {
+    position: relative;
+    width: 75%;
+    height: 40px;
+    margin: 0 auto;
+    background-color: #EAE3DB;
+    color: #434659;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+    cursor: pointer;
+}
+
+.del {
+    background-color: #A2B3E1;
+}
+
+
+.reset {
+    background-color: #A2B3E1;
+
+}
+
+.equal {
+    background-color: #F76B5A;
+}
+
+
+
+
+
+
